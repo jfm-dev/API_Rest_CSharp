@@ -59,15 +59,7 @@ namespace CREST
             tablecountries.DataSource = list;
         }
 
-        private void bunifuThinButton21_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void groupBox1_Enter(object sender, EventArgs e)
-        {
-
-        }
+     
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -134,6 +126,19 @@ namespace CREST
             MessageBox.Show("O ficheiro foi exportado com sucesso. Encontre o ficheiro neste caminho:"+path,"Sucesso", MessageBoxButtons.OK);
             
             
+        }
+
+     
+
+        private void panel8_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Maximized;
+        }
+
+        private void panel7_Click(object sender, EventArgs e)
+        {
+            System.Windows.Forms.Application.Exit();
+
         }
     }
 }
