@@ -12,5 +12,6 @@ Implemente um mecanismo dentro do cliente REST C# para exportar as informações
 </ul>
 
 
-<h3>Dados do desenvolvedor</h3>
+<h3>Dev por justuvêncio Frederico Muculo</h3>
+E-mail: <a href="mailto:justivenciof@gmail.com">Justivenciof@gmail.com </a>
 
