@@ -12,7 +12,9 @@ namespace CREST
 
 
         public Form1()
+
         {
+           
 
             var c = new Country();
             InitializeComponent();
@@ -21,7 +23,10 @@ namespace CREST
 
         private async void Form1_Load(object sender, EventArgs e)
         {
-           await GetcounriesAsync();
+            DateTime aDate = DateTime.Now;
+
+            dateTime.Text = aDate.ToString("dddd, dd MMMM yyyy");
+            await GetcounriesAsync();
 
         }
 

@@ -37,6 +37,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.dateTime = new System.Windows.Forms.TextBox();
             this.panel5 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
@@ -154,6 +155,7 @@
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.dateTime);
             this.panel1.Controls.Add(this.panel5);
             this.panel1.Controls.Add(this.button3);
             this.panel1.Controls.Add(this.panel4);
@@ -165,6 +167,19 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(112, 506);
             this.panel1.TabIndex = 4;
+            // 
+            // dateTime
+            // 
+            this.dateTime.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(24)))), ((int)(((byte)(35)))));
+            this.dateTime.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dateTime.Font = new System.Drawing.Font("Segoe UI", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.dateTime.ForeColor = System.Drawing.SystemColors.Window;
+            this.dateTime.Location = new System.Drawing.Point(0, 488);
+            this.dateTime.Name = "dateTime";
+            this.dateTime.Size = new System.Drawing.Size(112, 13);
+            this.dateTime.TabIndex = 6;
+            this.dateTime.Text = "21/06/2022";
+            this.dateTime.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // panel5
             // 
@@ -270,6 +285,7 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.tablecountries)).EndInit();
             this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -296,5 +312,6 @@
         private Panel panel6;
         private Panel panel7;
         private Panel panel8;
+        private TextBox dateTime;
     }
 }
