@@ -21,7 +21,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Bunifu.UI.WinForms" Version="5.3.0" />
     <PackageReference Include="RestCountries" Version="1.2.0" />
   </ItemGroup>
 
